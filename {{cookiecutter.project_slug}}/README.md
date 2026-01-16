@@ -14,7 +14,7 @@ cmake --build build
 
 ### 実行
 ```sh
-./build/{{cookiecutter.project_slug}}
+./build/Debug/{{cookiecutter.project_slug}}
 ```
 
 ### クリーン

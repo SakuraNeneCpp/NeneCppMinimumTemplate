@@ -1,6 +1,6 @@
-# include <iostream>
+# include <NeneIcecream/NeneIcecream.hpp>
 
 int main(){
-    std::cout << "Hello world" << std::endl;
+    ic("hello world");
     return 0;
 }

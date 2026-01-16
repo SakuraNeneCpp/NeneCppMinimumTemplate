@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project({{cookiecutter.project_slug}} VERSION 0.1.0 LANGUAGES CXX)
 add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries({{cookiecutter.project_slug}} PRIVATE NeneIcecream::NeneIcecream)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
 if (MSVC)
   target_compile_options(${PROJECT_NAME} PRIVATE /W4)
