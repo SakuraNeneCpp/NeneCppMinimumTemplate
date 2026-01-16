@@ -17,3 +17,7 @@ C++ Minimum Cookiecutter Template
     "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '_') | replace('-', '_') }}"
 }
 ```
+
+## 使い方
+### テンプレートの利用方法
+### Cookiecutterのインストール方法
