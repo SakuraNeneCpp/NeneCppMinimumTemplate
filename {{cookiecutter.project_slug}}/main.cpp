@@ -1,6 +1,8 @@
-# include <NeneIcecream/NeneIcecream.hpp>
+#include <string>
+#include <NeneIcecream/NeneIcecream.hpp>
 
 int main(){
-    ic("hello world");
+    std::string msg = "hello world";
+    ic(msg);
     return 0;
 }

@@ -8,5 +8,5 @@ else()
   target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Wpedantic)
 endif()
 target_include_directories(${PROJECT_NAME} PRIVATE
-  ${CMAKE_CURRENT_SOURCE_DIR}/third_party/NeneIcecream
+  ${CMAKE_CURRENT_SOURCE_DIR}/third_party/include
 )
